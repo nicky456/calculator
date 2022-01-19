@@ -53,6 +53,13 @@ a img {
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
+@media only screen and (max-width: 600px) {
+  .calculator {
+    width: 85vw;
+    height: 85vh;
+  }
+}
+
 .light.calculator {
   background-color: #ffffff;
 }
